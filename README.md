@@ -1,4 +1,4 @@
-# CS205 Aritifical Intelligence Pacman Project
+# CS205 Aritifical Intelligence Pacman Project - Bryce Hills
 
 <img src="pacman_search/screenshots/maze.png" alt="alt text" width="500" height="500">
 
