@@ -15,7 +15,8 @@
   - Greedy Search - (Finding out why this is suboptimal for the eating problem)
 * Main Idea
   - Implement search algorithms and heuristics in a real world example to get a better idea of where each one can succeed or fail.
-  - 
+  - Understanding Admissibility vs. Consistency with respect to heuristics
+  - Learning how to represent a game as a searchable set of states for search algorithms
  
 ## File Breakdown
 * Main Files:
