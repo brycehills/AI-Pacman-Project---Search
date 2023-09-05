@@ -47,6 +47,15 @@ python pacman.py
 Run a pacman agent on a particular board by using 
 
 python pacman.py --layout (maze) --pacman (agent)
+In order of parts 1 - 8, the commands are as follows:
+python pacman.py -l tinyMaze -p SearchAgent
+python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
+python pacman.py -l trickySearch -p AStarFoodSearchAgent
+python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
 ```
 
 # Screenshots & revelant info of project below:
@@ -57,7 +66,6 @@ python pacman.py --layout (maze) --pacman (agent)
 ```python
 python pacman.py -l tinyMaze -p SearchAgent
 ```
-![Q1_tinymaze_success](https://user-images.githubusercontent.com/11414055/138003625-cc982f44-3af3-443b-a755-cea5e05249af.png)
 ```python
 python pacman.py -l mediumMaze -p SearchAgent
 ```
@@ -77,7 +85,6 @@ Record:        Win
 ```python
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 ```
-![Q1_bigmaze_success](https://user-images.githubusercontent.com/11414055/138004726-fd081c22-98a3-47ec-afe6-f932f5084540.png)
 #### Answers to questions posted in [Question 1](http://ai.berkeley.edu/search.html#Q1):
 * The Pacman board will show an overlay of the states explored, and the order in which they were explored (brighter red means earlier exploration). Is the exploration order what you would have expected? 
   * There are cases where pacman starts with only one possible direction and the nodes that correspond to that direction are explored first. This makes sense since DFS expands depth first.
