@@ -66,10 +66,7 @@ python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
 ```python
 python pacman.py -l tinyMaze -p SearchAgent
 ```
-```python
-python pacman.py -l mediumMaze -p SearchAgent
-```
-![](https://user-images.githubusercontent.com/11414055/138004166-03f9bafc-165d-4180-8d42-380ad06d5925.png)
+
 ```bash
 $ python pacman.py -l mediumMaze -p SearchAgent
 [SearchAgent] using function depthFirstSearch
@@ -82,9 +79,7 @@ Scores:        380.0
 Win Rate:      1/1 (1.00)
 Record:        Win  
 ```
-```python
-python pacman.py -l bigMaze -z .5 -p SearchAgent
-```
+
 #### Answers to questions posted in [Question 1](http://ai.berkeley.edu/search.html#Q1):
 * The Pacman board will show an overlay of the states explored, and the order in which they were explored (brighter red means earlier exploration). Is the exploration order what you would have expected? 
   * There are cases where pacman starts with only one possible direction and the nodes that correspond to that direction are explored first. This makes sense since DFS expands depth first.
@@ -114,10 +109,6 @@ Scores:        442.0
 Win Rate:      1/1 (1.00)
 Record:        Win     
 ```
-```python
-python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
-```
-![Q2_bigmaze_success](https://user-images.githubusercontent.com/11414055/138005394-d79821e8-9f27-400d-b7a9-4bb9fcd20dee.png)
 
 
 ## Question 3
@@ -137,34 +128,6 @@ Average Score: 442.0
 Scores:        442.0     
 Win Rate:      1/1 (1.00)
 Record:        Win   
-```
-```python
-python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
-```
-![Q3_mediumdottedmaze_success](https://user-images.githubusercontent.com/11414055/138021789-9146d8e4-7b14-412e-ac58-736a50183597.png)
-```bash
-$ python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
-Path found with total cost of 1 in 0.0 seconds
-Search nodes expanded: 186
-Pacman emerges victorious! Score: 646
-Average Score: 646.0     
-Scores:        646.0     
-Win Rate:      1/1 (1.00)
-Record:        Win 
-```
-```python
-python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
-```
-![Q3_mediumscarymaze_success](https://user-images.githubusercontent.com/11414055/138021994-34bbaae3-b872-4526-a22a-83d33d32aef9.png)
-```bash
-$ python pacman.py -l mediumScaryMaze -p StayWestSearchAgent --frameTime 0
-Path found with total cost of 68719479864 in 0.0 seconds
-Search nodes expanded: 108
-Pacman emerges victorious! Score: 418
-Average Score: 418.0
-Scores:        418.0     
-Win Rate:      1/1 (1.00)
-Record:        Win 
 ```
 
 ## Question 4
@@ -191,19 +154,6 @@ Win Rate:      1/1 (1.00)
 Record:        Win
 ```
 
-```python
-python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
-```
-![05 medium corners](https://user-images.githubusercontent.com/57783476/139521445-71aec2f9-a430-4935-972d-b5f8afd524a7.png)
-```bash
-Path found with total cost of 106 in 0.2 seconds
-Search nodes expanded: 2448
-Pacman emerges victorious! Score: 434
-Average Score: 434.0
-Scores:        434.0
-Win Rate:      1/1 (1.00)
-Record:        Win
-```
 
 ## Question 6
 #### Screenshots of successful runs:
@@ -253,12 +203,9 @@ Record:        Win
 ```
 
 
-
-
 ## Credits
 
 * http://ai.berkeley.edu/search.html#Q8
-
 
 ---
 
