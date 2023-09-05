@@ -2,13 +2,19 @@
 
 ## Motivation
 
-* In this project, the Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. We build general search algorithms and apply them to Pacman scenarios.
-  - Instantly see what your Markdown documents look like in HTML as you create them.
+* In this project, the Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. We build general search algorithms and apply them to Pacman scenarios:
+  - Breadth First Search
+  - Depth First Search
+  - Uniform Cost Search
+  - A Star Algorithm
+  - Implementing a Representation of the Corners Problem
+  - Corners Problem Heuristic
+  - Eating All Dots Heuristic
+  - Greedy Search - (Finding out why this is suboptimal for the eating problem)
 * Sync Scrolling
   - While you type, LivePreview will automatically scroll to the current location you're editing.
  
 ## File Breakdown
-* Files you'll edit:  
 * search.py	Where all of your search algorithms will reside.  
 * searchAgents.py	Where all of your search-based agents will reside.  
 * Files you might want to look at:  
