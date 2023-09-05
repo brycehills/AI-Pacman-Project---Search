@@ -49,6 +49,9 @@ Run a pacman agent on a particular board by using
 python pacman.py --layout (maze) --pacman (agent)
 ```
 
+# Screenshots & revelant info of project below:
+---
+
 ## Question 1
 #### Screenshots of successful runs:
 ```python
