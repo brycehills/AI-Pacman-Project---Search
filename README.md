@@ -76,9 +76,15 @@ python pacman.py -l bigMaze -z .5 -p SearchAgent
 ```
 ![Q1_bigmaze_success](https://user-images.githubusercontent.com/11414055/138004726-fd081c22-98a3-47ec-afe6-f932f5084540.png)
 #### Answers to questions posted in [Question 1](http://ai.berkeley.edu/search.html#Q1):
-The exploration of the board using DFS is slightly surprising in that in general, PacMan searches along the desired parth, ignoring a series of states (e.g. positions on the board) that would never lead him to the goal state.  The return from DFS is the path Pacman must take to reach the goal state, so he does not actually move to the explored states on his path to the goal, although the board provides an overlay of the states that were explored.
+* The Pacman board will show an overlay of the states explored, and the order in which they were explored (brighter red means earlier exploration). Is the exploration order what you would have expected? 
+  * There are cases where pacman starts with only one possible direction and the nodes that correspond to that direction are explored first. This makes sense since DFS expands depth first.
+  * Other cases where Pac-Man can move in multiple directions and it expands a specific direction first is also expected if we assume that direction is the first added to the actions.
+  * Overall it is expected since DFS will explore nodes depth-wise once initialized with the start node. 
+* Does Pacman actually go to all the explored squares on his way to the goal?
+  * No, many explored nodes are not traversed on the way to the goal for all board sizes. 
+* Is this a least-cost solution? If not, think about what depth-first search is doing wrong.
+  * No, dfs does not take the cost of explored nodes into account in terms of adding to the data structure, thus the order in which nodes are added to the data structure could be more optimal.
 
-DFS provides a sub-optimal solution (e.g. not the shortest path), in that it returns the "first" path it encounters that reaches the goal state.  If this path is at the very bottom of the search tree, but happens to be the first path explored, then this path is returned, regardless of the path depth. 
 
 ## Question 2
 #### Screenshots of successful runs:
