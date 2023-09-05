@@ -1,6 +1,6 @@
 # CS205 Aritifical Intelligence Pacman Project - Bryce Hills
 
-<img src="pacman_search/screenshots/maze.png" alt="alt text" width="800" height="800">
+<img src="pacman_search/screenshots/maze.png" alt="alt text" width="250" height="250">
 
 ## Motivation
 
