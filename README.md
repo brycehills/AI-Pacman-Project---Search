@@ -1,4 +1,6 @@
-<img src="pacman_search/screenshots/maze.png" alt="alt text" width="700" height="400">
+# CS205 Aritifical Intelligence Pacman Project
+
+<img src="pacman_search/screenshots/maze.png" alt="alt text" width="500" height="500">
 
 ## Motivation
 
