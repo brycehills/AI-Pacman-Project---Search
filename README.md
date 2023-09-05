@@ -60,5 +60,5 @@ python pacman.py --layout (maze) --pacman (agent)
 ---
 
 > GitHub [@brycehills](https://github.com/brycehills) &nbsp;&middot;&nbsp;
-> LinkedIn [bryce hills]([https://twitter.com/amit_merchant](https://www.linkedin.com/in/brycehills1/)https://www.linkedin.com/in/brycehills1/)
+> LinkedIn [@brycehills](https://www.linkedin.com/in/brycehills1/)
 
