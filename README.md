@@ -1,4 +1,4 @@
-<img src="AI-Pacman-Project---Search/screenshots/maze.png" alt="alt text" width="700" height="400">
+<img src="screenshots/maze.png" alt="alt text" width="700" height="400">
 
 ## Key Features
 
