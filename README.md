@@ -44,10 +44,10 @@ After downloading the code (search.zip), unzipping it, and changing to the direc
 
 python pacman.py
 
-Run a pacman agent on a particular board by using 
+Run a pacman agent on a particular board by using the general form: python pacman.py --layout (maze) --pacman (agent)
 
-python pacman.py --layout (maze) --pacman (agent)
 In order of parts 1 - 8, the commands are as follows:
+-----------------------------------------------------
 python pacman.py -l tinyMaze -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
