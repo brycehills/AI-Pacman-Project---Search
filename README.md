@@ -97,7 +97,7 @@ Record:        Win
 ```python
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 ```
-![Q2_mediummaze_success](https://user-images.githubusercontent.com/11414055/138005250-bc1097b9-b5d6-40ef-af6c-342890d63b8b.png)
+<img src="pacman_search/screenshots/part2.png" alt="alt text" width="1000" height="600">
 ```bash
 $ python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 [SearchAgent] using function bfs
@@ -117,7 +117,7 @@ Record:        Win
 ```python
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 ```
-![Q3_mediummaze_success](https://user-images.githubusercontent.com/11414055/138021564-0b30f2c7-7a64-4d11-8fb2-0f39a0a3d4a2.png)
+<img src="pacman_search/screenshots/part3.png" alt="alt text" width="1000" height="600">
 ```bash
 $ python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 [SearchAgent] using function ucs
@@ -136,72 +136,7 @@ Record:        Win
 ```python
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 ```
-![Q4_bigmaze_success](https://user-images.githubusercontent.com/11414055/138022285-d200b3c7-e1a0-4930-8d9d-72c1ae895f88.png)
-
-
-## Question 5
-#### Screenshots of successful runs:
-```python
-python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
-```
-![05 tiny corners](https://user-images.githubusercontent.com/57783476/139521327-8d1cec50-f0c8-48bc-ad53-edca210c66b5.png)
-```bash
-Path found with total cost of 28 in 0.0 seconds
-Search nodes expanded: 435
-Pacman emerges victorious! Score: 512
-Average Score: 512.0
-Scores:        512.0
-Win Rate:      1/1 (1.00)
-Record:        Win
-```
-
-
-## Question 6
-#### Screenshots of successful runs:
-```python
-python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
-```
-![06 mediumcorners heuristic](https://user-images.githubusercontent.com/57783476/139521541-941b37f2-8a1a-4194-bca1-fe8250194bf0.png)
-```bash
-Path found with total cost of 106 in 9.9 seconds
-Search nodes expanded: 978
-Pacman emerges victorious! Score: 434
-Average Score: 434.0
-Scores:        434.0
-Win Rate:      1/1 (1.00)
-Record:        Win
-```
-
-## Question 7
-#### Screenshot of successful runs:
-```python
-python pacman.py -l trickySearch -p AStarFoodSearchAgent
-```
-![07 trickysearch astarfoodsearch](https://user-images.githubusercontent.com/57783476/140805058-ca8cad35-c8ec-4740-bf5a-0a4fb5c9b525.png)
-```bash
-Path found with total cost of 60 in 36.5 seconds
-Search nodes expanded: 4137
-Pacman emerges victorious! Score: 570
-Average Score: 570.0
-Scores:        570.0
-Win Rate:      1/1 (1.00)
-Record:        Win
-```
-
-## Question 8
-#### Screenshot of successful runs
-```python
-python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 
-```
-![08 bigsearch closestdotsearch](https://user-images.githubusercontent.com/57783476/140805834-f8c511a9-dc88-4452-91a8-b26985502606.png)
-```bash
-Path found with cost 350.
-Pacman emerges victorious! Score: 2360
-Average Score: 2360.0
-Scores:        2360.0
-Win Rate:      1/1 (1.00)
-Record:        Win
-```
+<img src="pacman_search/screenshots/p4.png" alt="alt text" width="1000" height="600">
 
 
 ## Credits
