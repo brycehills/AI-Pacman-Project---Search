@@ -98,6 +98,7 @@ Record:        Win
 ```python
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 ```
+
 <img src="pacman_search/screenshots/part2.png" alt="alt text" width="1000" height="600">  
 
 ```bash
@@ -119,6 +120,7 @@ Record:        Win
 ```python
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 ```
+
 <img src="pacman_search/screenshots/part3.png" alt="alt text" width="1000" height="600">  
 
 ```bash
@@ -139,6 +141,7 @@ Record:        Win
 ```python
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 ```
+
 <img src="pacman_search/screenshots/p4.png" alt="alt text" width="1000" height="600">  
 
 
