@@ -66,7 +66,7 @@ python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
 ```python
 python pacman.py -l tinyMaze -p SearchAgent
 ```
-<img src="pacman_search/screenshots/part1.png" alt="alt text" width="800" height="700">
+<img src="pacman_search/screenshots/part1.png" alt="alt text" width="1000" height="600">
 
 ```bash
 $ python pacman.py -l mediumMaze -p SearchAgent
